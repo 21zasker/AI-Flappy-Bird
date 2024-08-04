@@ -34,7 +34,7 @@ This project demonstrates how evolutionary algorithms and neural networks can be
 - C++ Standard Library
 
 ## Showcase
-<img src="https://github.com/21zasker/AI-Flappy-Bird/blob/main/Showcase/AI%20Flappy%20Bird%20GIF.gif" width="25%" alt="Showcase">
+<img src="https://github.com/21zasker/AI-Flappy-Bird/blob/main/Showcase/AI%20Flappy%20Bird%20GIF.gif" width="45%" alt="Showcase">
 
 ## Note
 This project is intended to demonstrate the application of AI techniques in game development. Further optimizations and enhancements can be made to improve the AI's performance and the game's functionality.
