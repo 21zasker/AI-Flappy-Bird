@@ -34,12 +34,14 @@ int main()
                 window.close();
         }
 
+        // When 1 or more birds are alive, the game continues
         if (!birds_manager.all_dead_birds())
         {
             birds_manager.update_birds(pipes_manager.get_pipes());
             pipes_manager.generate_pipes(random_engine);
             pipes_manager.update_pipes();
         }
+        // When all the birds have lost, a new generation of evolved birds tries again
         else
         {
             birds_manager.next_generation();
